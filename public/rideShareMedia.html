@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="theme2.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center"><br><br><br><br><br><br></h2>
+
+<div class="w3-content" style="max-width:600px">
+    
+
+        <div class="w3-display-container mySlides">
+            <img src="../images/skipthedishes.png" style="width:100%">
+                <br><br><br>
+                    <div class="w3-container w3-padding-16 w3-black">
+                        $7 Discount
+                    </div>
+        </div>
+        <div class="w3-display-container mySlides">
+                <img src="../images/ubereats.png" style="width:100%">
+                    <br><br><br>
+                        <div class="w3-container w3-padding-16 w3-black">
+                            $10 Discount
+                        </div>
+                        
+            </div>
+            <div class="w3-display-container mySlides">
+                    <img src="../images/doordash.png" style="width:100%">
+                        <br><br><br>
+                            <div class="w3-container w3-padding-16 w3-black">
+                                $7 Discount
+                            </div>
+                </div>
+                <div class="w3-display-container mySlides">
+                    <img src="../images/doordash.png" style="width:100%">
+                        <br><br><br>
+                            <div class="w3-container w3-padding-16 w3-black">
+                                $7 Discount 
+                                <form action="http://google.com">
+                                    <input type="submit" value="Feed me!" />
+                                </form>
+                            </div>
+                </div>
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+
+</body>
+</html>
