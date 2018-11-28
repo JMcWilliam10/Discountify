@@ -1,18 +1,10 @@
-function myFunction() {
-    /* Get the text field */
+
+  function changeText(){
+    document.getElementById("myButton1").value="Copied!";
     var copyText = document.getElementById("myInput");
-  
-    /* Select the text field */
     copyText.select();
-  
-    /* Copy the text inside the text field */
     document.execCommand("copy");
-    
-   
-    /* Alert the copied text 
-    alert("Copied the code: " + copyText.value);
-    */
-  }
+}
 
   function myFunctionTangerine() {
     /* Get the text field */
@@ -72,12 +64,7 @@ function myFunction() {
   }
 
   /* Function that changes button and copies text from above input element */
-function changeText(){
-  document.getElementById("myButton1").value="Copied!";
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  document.execCommand("copy");
-}
+
 /* Toggle Nav Bar */
 function classToggle() {
   const navs = document.querySelectorAll('.Navbar__Items')
