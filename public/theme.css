@@ -14,9 +14,24 @@ body{
   background-image: url(home-background.jpg); 
   background-size: cover;
   background-position: bottom;  
-  padding 10em 0;
   color: #fff;
   background-attachment: fixed;
+  overflow: hidden;
+  width:100%;
+
+
+}
+#jumbotron{
+    height: 600px;
+}
+#jumbotron-text{
+    margin: -200px ;
+    padding: 230px;
+    text-align: center;
+    font-size: 50px;
+  
+
+
 }
 
 .container{
@@ -26,8 +41,6 @@ body{
 
 h1 {
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
     background-image: linear-gradient(to right, rgba(255,0,0,0),  rgb(184, 12, 161));
     color: white;
     
@@ -127,7 +140,10 @@ ul.topnav li a {
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
-
+}
+#myButton1:hover {
+    background-image: linear-gradient( rgba(255,0,0,0),  rgb(5, 209, 165));
+    color: white;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: #02C39A;}
@@ -160,7 +176,6 @@ ul.topnav li.right {float: right;}
   }
 
   /*   New nav*/
-
   .Navbar {
     background-image: linear-gradient(to right, rgba(255,0,0,0),  rgb(184, 12, 161));
     display: flex;
