@@ -7,15 +7,13 @@ function changeText(){
 }
 
   function myFunctionTangerine() {
+    document.getElementById("tangerineButton").value="Copied!";
     /* Get the text field */
     var copyText = document.getElementById("myInputTangerine");
-  
     /* Select the text field */
     copyText.select();
-  
     /* Copy the text inside the text field */
     document.execCommand("copy");
-  
     /* Alert the copied text 
     alert("Copied the code: " + copyText.value);
     */

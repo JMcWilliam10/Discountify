@@ -28,7 +28,7 @@ body{
     margin: -200px ;
     padding: 230px;
     text-align: center;
-    font-size: 50px;
+    font-size: 2em;
     font-family: 'Monoton', cursive;
   
 
@@ -269,11 +269,12 @@ ul.topnav li.right {float: right;}
   }
 /*EXPANDABLE DROPDOWN MENU */
 #panel, #flip {
-    padding: 5px;
+    padding: 15px;
     text-align: center;
 }
 
 #panel {
+    text-align: center;
     padding: 50px;
     display: none;
 }
