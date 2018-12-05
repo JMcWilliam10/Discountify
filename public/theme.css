@@ -56,9 +56,14 @@ h2{
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 25px;
-
+    font-family: 'Monoton', cursive;
 }
-
+#drop-down-icon{
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
 @media (max-width: 600px) {
     .row {
       -webkit-flex-direction: column;
@@ -275,7 +280,7 @@ ul.topnav li.right {float: right;}
 
 #panel {
     text-align: center;
-    padding: 50px;
+    padding: 25px;
     display: none;
 }
 
