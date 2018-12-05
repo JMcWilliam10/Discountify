@@ -39,7 +39,7 @@ body{
 h1 {
     text-align: center;
     background-image: linear-gradient(to right, rgba(255,0,0,0),  rgb(184, 12, 161));
-    color: white;
+    color: white; 
      }
 h2{
     text-align: center;
@@ -79,10 +79,7 @@ h2{
     text-align-last: auto;
     background-color: #333;
     background-image: linear-gradient( rgba(255,0,0,0),  rgb(184, 12, 161));    
-    border-radius: 30px;   
-    
-    
-    
+    border-radius: 30px;    
 }
 .button {
     background-image: linear-gradient( rgb(255, 255, 255),  rgb(5, 209, 165));
