@@ -73,3 +73,11 @@ function classToggle() {
 }
 document.querySelector('.Navbar__Link-toggle')
   .addEventListener('click', classToggle);
+
+  /*Details section of each Company Drop Down menu*/
+
+  $(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});

@@ -29,6 +29,7 @@ body{
     padding: 230px;
     text-align: center;
     font-size: 50px;
+    font-family: 'Monoton', cursive;
   
 
 
@@ -43,6 +44,7 @@ h1 {
     text-align: center;
     background-image: linear-gradient(to right, rgba(255,0,0,0),  rgb(184, 12, 161));
     color: white;
+
     
      }
 h2{
@@ -265,3 +267,15 @@ ul.topnav li.right {float: right;}
     margin:10px;
     color: white;
   }
+/*EXPANDABLE DROPDOWN MENU */
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+
