@@ -1,4 +1,5 @@
 /*Cchanges element text to copied & copies text*/
+
 function changeText(){
     document.getElementById("myButton1").value="Copied!";
     var copyText = document.getElementById("myInput");
